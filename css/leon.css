@@ -69,13 +69,13 @@ body {
 }
 
 .special_heading  h1 {
-    font-size: 85px;
+    font-size: 60px;
     opacity: 0.1;
 
 }
 
 .special_heading  p {
-    margin-top: -80px;
+    margin-top: -63px;
     color: var(--thirty-color);
 }
 /* end components  */
@@ -92,7 +92,7 @@ body {
 }
 
 .header .container .logo {
-    font-size: 25px;
+   width: 60px;
 }
 
 .icon {
@@ -303,7 +303,7 @@ body {
 /* start portfolio */
 .portfolio{
     background-color: var(--fourty-color);
-   padding: 40px;
+   padding: 40px 0 ;
 }
 .portfolio .portfolio_content{
     display: grid;
@@ -312,6 +312,7 @@ body {
     row-gap: 20px;
    
 }
+
 .portfolio .portfolio_content .col img{
     width: 100%;
    
@@ -359,6 +360,7 @@ width: 250px;
 }
 .about .container .about_content .col .two_text div{
     line-height: var(--line_hieght);
+    text-align: center;
 }
 .about .container .about_content .col .two_text :first-child{
    font-weight: bold;
@@ -427,7 +429,7 @@ width: 250px;
 .contact{
     background-color: var(--fourty-color);
     padding:30px 0 100px 0;
-    margin-top: 50px;
+    margin-top: 170px;
 
 }
 .contact .container .contact_content{
@@ -440,12 +442,18 @@ width: 250px;
     font-size: 35px;
     font-weight: bold;
 }
+@media(max-width:768px){
+    .contact .container .contact_content a{
+        font-size: 25px;
+    }
+}
 .contact .container .contact_content p{
     font-weight: bold;
     font-size: 30px;
     opacity: 0.8;
     margin-bottom: 20px;
 }
+
 .contact .container .contact_content div{
     
 margin-top: 20px;
